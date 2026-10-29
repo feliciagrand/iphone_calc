@@ -12,18 +12,21 @@ struct Tank: Identifiable {
 }
 
 let tanks: [Tank] = [
-    Tank(name: "No 3 HFO (Port)",  volFull: 537.730, meshFull: 1290.0, tableS: data_No_3_P_S, tableU: data_No_3_P_U),
-    Tank(name: "No 4 HFO (Port)",  volFull: 627.480, meshFull: 1396.0, tableS: data_No_4_P_S, tableU: data_No_4_P_U),
-    Tank(name: "No 4 HFO (STBD)",  volFull: 627.480, meshFull: 1396.0, tableS: data_No_4_S_S, tableU: data_No_4_S_U),
-    Tank(name: "No 5 HFO (Port)",  volFull: 697.420, meshFull: 1504.0, tableS: data_No_5_P_S, tableU: data_No_5_P_U),
-    Tank(name: "No 5 HFO (STBD)",  volFull: 697.420, meshFull: 1443.0, tableS: data_No_5_S_S, tableU: data_No_5_S_U),
-    Tank(name: "HFO Settling",  volFull: 68.811, meshFull: 688.6, tableS: data_5_S, tableU: data_5_U),
-    Tank(name: "HFO Service",  volFull: 68.811, meshFull: 688.0, tableS: data_4_S, tableU: data_4_U),
-    Tank(name: "L HFO Settling",  volFull: 70.687, meshFull: 688.7, tableS: data_7_S, tableU: data_7_U),
-    Tank(name: "L HFO Service",  volFull: 72.388, meshFull: 687.5, tableS: data_6_S, tableU: data_6_U),
-    Tank(name: "HFO Overflow",  volFull: 27.099, meshFull: 250.0, tableS: data_8, tableU: nil),
-    Tank(name: "No 3 HFO (STBD)",  volFull: 537.730, meshFull: 1290.0, tableS: data_No_3_S_S, tableU: data_No_3_S_U),
-    Tank(name: "MGO Settling",  volFull: 14.748, meshFull: 430.0, tableS: data_2, tableU: nil),
-    Tank(name: "MGO Service",  volFull: 52.071, meshFull: 442.0, tableS: data_1, tableU: nil),
-    Tank(name: "MGO Stor",  volFull: 92.518, meshFull: 254.0, tableS: data_3, tableU: nil),
+    // ───── Группа A─────
+    Tank(name: "№ 1 HFO (PS)",      volFull: 575.417,     meshFull: 2286,      tableS: letizia_data_1,     tableU: letizia_data_2),
+    Tank(name: "№ 1 HFO (SS)",      volFull: 575.301,     meshFull: 2289,      tableS: letizia_data_3,     tableU: letizia_data_4),
+    Tank(name: "№ 2 HFO (CPS)",     volFull: 1556.11,     meshFull: 2547,      tableS: letizia_data_5,     tableU: letizia_data_6),
+    Tank(name: "№ 2 HFO (CSS)",     volFull: 1122.09,     meshFull: 2547,      tableS: letizia_data_7,     tableU: letizia_data_8),
+    Tank(name: "№ 2 HFO (PS)",      volFull: 1695.08,     meshFull: 2548,      tableS: letizia_data_9,     tableU: letizia_data_10),
+    Tank(name: "№ 2 HFO (SS)",      volFull: 1695.08,     meshFull: 2546,      tableS: letizia_data_11,    tableU: letizia_data_12),
+    Tank(name: "№ 3 HFO (SS)",      volFull: 658.938,     meshFull: 2285,      tableS: letizia_data_13,    tableU: letizia_data_14),
+    Tank(name: "FO Overflow",       volFull: 146.941,     meshFull: 612,       tableS: letizia_data_15,    tableU: letizia_data_16),
+    Tank(name: "HFO Service",       volFull: 196.040,     meshFull: 1351,      tableS: letizia_data_17,    tableU: letizia_data_18),
+    Tank(name: "HFO Settling",      volFull: 191.707,     meshFull: 1352,      tableS: letizia_data_19,    tableU: letizia_data_20),
+    Tank(name: "LSHFO Service",     volFull: 96.9000,     meshFull: 1349,      tableS: letizia_data_21,    tableU: letizia_data_22),
+    Tank(name: "LSHFO Settling",    volFull: 96.6940,     meshFull: 1349,      tableS: letizia_data_23,    tableU: letizia_data_24),
+    Tank(name: "MDO Service",       volFull: 84.7340,     meshFull: 833,       tableS: letizia_data_25,    tableU: letizia_data_26),
+    Tank(name: "MDO Stor (PS)",     volFull: 504.891,     meshFull: 2289,      tableS: letizia_data_27,    tableU: letizia_data_28),
+    Tank(name: "MGO Stor/Service",  volFull: 338.750,     meshFull: 1350,      tableS: letizia_data_29,    tableU: letizia_data_30),
+
 ]
