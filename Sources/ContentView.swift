@@ -208,7 +208,7 @@ struct ContentView: View {
             HStack(spacing: 10) {
                 HStack {
                     TextField(inputPlaceholder, text: text)
-                        .keyboardType(.numbersAndPunctuation)
+                        .keyboardType(.decimalPad)   // ← было .numbersAndPunctuation
                         .onChange(of: text.wrappedValue) { _ in recalculateAll() }
                     Text(unit)
                         .font(.caption)
