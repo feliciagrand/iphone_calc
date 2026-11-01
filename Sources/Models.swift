@@ -11,6 +11,7 @@ struct Tank: Identifiable {
     let tableU: CalibrationTable?
 }
 
+
 let tanks: [Tank] = [
     // ───── Группа A─────
     Tank(name: "№ 1 HFO (PS)",      volFull: 575.417,     meshFull: 2286,      tableS: letizia_data_1,     tableU: letizia_data_2),
