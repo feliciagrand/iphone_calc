@@ -4,13 +4,9 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
     - uses: actions/checkout@v4
-
-    - uses: maxim-lobanov/setup-xcode@v1
-      with:
-        xcode-version: '15.4'
 
     - name: List Sources
       run: ls -la Sources/
